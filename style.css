@@ -69,10 +69,6 @@ ul {
   transform: translateY(-65%);
 }
 
-.card:hover .card__paragraph {
-  display: block;
-}
-
 .card__heading {
   text-align: center;
 }
@@ -120,8 +116,6 @@ ul {
 }
 
 .card__paragraph {
-  display: none;
-
   bottom: 20px;
 
   font-weight: normal;

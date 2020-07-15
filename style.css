@@ -66,7 +66,7 @@ ul {
 
 .card:hover .card__wrapper {
   transition: 1s;
-  transform: translateY(-65%);
+  transform: translateY(-100%);
 }
 
 .card__heading {

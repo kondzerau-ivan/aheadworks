@@ -141,7 +141,6 @@ ul {
   }
 
   .products__list {
-    flex-direction: row;
     justify-content: space-around;
 
     width: 100%;
@@ -152,12 +151,8 @@ ul {
     margin-bottom: 40px;
   }
 
-  .card + .card {
-    margin-left: 40px;
-  }
-
-  .card:nth-child(4n) {
-    margin-left: 0;
+  .card:nth-child(n + 1) {
+    margin-left: 20px;
   }
 }
 
@@ -168,13 +163,15 @@ ul {
 
   .products__list {
     justify-content: start;
+
+    width: auto;
   }
 
-  .card:nth-child(4n) {
-    margin-left: 40px;
-  }
-
-  .card:nth-child(5n) {
+  .card + .card {
     margin-left: 0;
+  }
+
+  .card:nth-child(n + 1) {
+    margin-left: 30px;
   }
 }
